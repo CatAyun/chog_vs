@@ -1,0 +1,14 @@
+[profile.default]
+src = "contracts/src"
+out = "contracts/out"
+libs = ["contracts/lib"]
+script = "contracts/script"
+solc_version = "0.8.24"
+optimizer = true
+optimizer_runs = 200
+
+[rpc_endpoints]
+monad = "${MONAD_RPC_URL}"
+
+[etherscan]
+monad = { key = "${MONADVISION_API_KEY}", url = "https://api.monadvision.com/api" }

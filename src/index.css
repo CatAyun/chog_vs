@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html {
+  background: #0d0618;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+code {
+  font-family: ui-monospace, monospace;
+}

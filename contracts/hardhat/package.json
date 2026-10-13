@@ -1,0 +1,19 @@
+{
+  "name": "chognft1-hardhat",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:monad": "hardhat run scripts/deploy.ts --network monad",
+    "deploy:game": "hardhat run scripts/deploy-game.ts --network monad",
+    "fund:game": "hardhat run scripts/fund-game.ts --network monad",
+    "withdraw:game": "hardhat run scripts/withdraw-game.ts --network monad"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
